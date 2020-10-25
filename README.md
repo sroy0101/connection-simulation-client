@@ -8,6 +8,10 @@ The official documentation for react-redux is comprehensive but not easy for the
 This application requires the connection-simulation-server application.
 Clone and run a version of it locally when testing this app. 
 
+TODOs: 
+This app currently gets the api response and updates the store but the results are not displayed. The following updates are planned: 
+1. Add a progress bar while waiting for response from the server. The server currently limits the simulation time to 1 minute. After the progress bar is added it would be possible to increase the simulation time significantly. 
+2. Add a table display of the simulation test results. 
 
 ## Available Scripts
 
